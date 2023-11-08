@@ -32,3 +32,25 @@ body {
 footer {
   background-color: #ffffff;
 }
+
+@media screen and (min-width: 320px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* 768px以上の画面幅に対応するスタイル */
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+  /* その他のスタイルの変更をここに追加 */
+}
+
+/* 1024px以上の画面幅に対応するスタイル */
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
+  /* その他のスタイルの変更をここに追加 */
+}
